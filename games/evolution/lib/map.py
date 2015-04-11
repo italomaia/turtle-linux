@@ -50,7 +50,7 @@ class Map:
             fj = self.h - j - 1
             for i in range(0, self.w):
                 cell = img.get_at((i, j))
-                klass = celltypes[cell]
+                klass = celltypes[tuple(cell)]
                 self.bg[(i, fj)] = klass((i, fj), self)
 
         # load foreground
@@ -61,7 +61,7 @@ class Map:
             fj = self.h - j - 1
             for i in range(0, self.w):
                 cell = img.get_at((i, j))
-                klass = celltypes[cell]
+                klass = celltypes[tuple(cell)]
                 self.fg[(i, fj)] = klass((i, fj), self)
 
         # now figure neighbors
