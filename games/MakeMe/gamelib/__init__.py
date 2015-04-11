@@ -562,15 +562,15 @@ class TallyLayer(object):
         self.flower_label = pyglet.text.Label(
             '123', x=-160, y=250,
             font_name='Attract more women', font_size=22,
-            valign='center', halign='right', batch=self.batch)
+            anchor_y='center', anchor_x='right', batch=self.batch)
         self.coin_label = pyglet.text.Label(
             '456', x=-160, y=330,
             font_name='Attract more women', font_size=22,
-            valign='center', halign='right', batch=self.batch)
+            anchor_y='center', anchor_x='right', batch=self.batch)
         self.box_label = pyglet.text.Label(
             '1 of 4', x=-160, y=145,
             font_name='Attract more women', font_size=22,
-            valign='center', halign='right', batch=self.batch)
+            anchor_y='center', anchor_x='right', batch=self.batch)
 
     def refresh(self):
         self.flower_label.text = '%d (%d%%)' % (
