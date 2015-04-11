@@ -1,0 +1,11 @@
+Developers,
+Juanjo,Conti
+Mariano,Galan
+Diego,Levental
+David,Capello 
+Sebastian,Galiano
+Cesar,Portela
+Manuel,Kaufmann
+url,zombie.firebirds.com.ar
+Some sounds from,freesound.iua.upf.edu
+
