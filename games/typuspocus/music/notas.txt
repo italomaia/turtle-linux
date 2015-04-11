@@ -1,0 +1,26 @@
+01 residentoide; cabaret crazy; rsdnt speech;...	** levels! + acorde final para intro screen
+02 spoken (didactique, idealiste)			-- [chapter screens?]
+03 childsong; rapp loco					** level?
+04 ostinato chiflado con acordeón; final cartoon	** level? + tomatazo! (quizás con "je transpire beaucoup" del 01)
+05 synpiano berreta; organito				** levels?
+06 gainsbourgoise					--
+07 spoken (didactique)					--
+08 spoken (dialogue); promo soundtrack			--
+09 marche des borraches					** pantalla ganadora?
+10 revcliques + pno + gtr				?? intro?
+11 sexy c/ dialogo sobre jazz waltz			--
+12 tainted love (popote) -> ducha -> lavadientes -> gtr	--
+13 spoken (childstory)					--
+14 child + rockito gruyere				?? levels?
+15 4-chord dwarf song en el agua			?? levels
+16 devil hardcore (corto, ensayo)			--
+17 chanson (piano) símil zorro				-- ?
+18 spoken (sportif)					--
+19 charla (talkshow?) + gemidos				--
+20 marcha fúnebre residentoide (mozart?) c/speech	?? game over (sin speech!)
+21 turcoide/grecque sanateado				--
+22 fx							** ERR
+23 trompetas; cuernos + slap + cancion c/gtr		** trompetas
+24 childstory						** usar intro y gato final para fx.
+25 ballet						--
+26 rapote cover; dance 80's c/speech			?? levels

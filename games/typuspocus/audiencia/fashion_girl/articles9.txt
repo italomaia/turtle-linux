@@ -1,0 +1,123 @@
+#
+#
+################################################################
+
+HCDataSetFile_version
+"1.0"
+
+HCDataSetFile_fields
+# unique id, probably the imagename with out the extension, but can be anything as long
+#  as it's constant and unique 
+"0"	"id"
+
+# full image name and path from the articlesImagePath directory specified in the config.txt file
+# probably just the name though, including the extension, the format can be GIF or JPEG
+# using any of the standard file extensions
+"1"	"imageName"
+
+# This could be body, pants, hair, hats, tops, bottoms, shoes, extras or unknown
+"2"	"category"
+
+# This defines which layer the item sits on the order and number of these layers
+# are defined in the config.txt file
+"3"	"layer"
+
+# co-ordinates that the gifs snap to on the person/alien
+"4"	"snapPosX"
+"5"	"snapPosY"
+
+# an order number defining in which order the user has placed the articles
+# set to -1 if the user is not wearing 
+"6" "wearing"
+
+"7" "waldrobe"
+
+HCDataSetFile_data
+"2" "girl_body_02.gif" "body" "body" "27" "28" "-1"
+"3" "girl_body_03.gif" "body" "body" "27" "28" "-1"
+"4" "girl_body_04.gif" "body" "body" "27" "28" "-1"
+"42" "girl_hairclip_02.gif" "extras" "infront" "42" "18" "-1"
+"43" "girl_earrings_01.gif" "extras" "infront" "29" "51" "-1"
+"44" "girl_earrings_02.gif" "extras" "infront" "31" "52" "-1"
+"45" "girl_earrings_03.gif" "extras" "infront" "29" "53" "-1"
+"46" "girl_hairclip_01.gif" "extras" "infront" "35" "15" "-1"
+"47" "girl_makeup_01.gif" "extras" "infront" "37" "44" "-1"
+"48" "girl_makeup_02.gif" "extras" "infront" "36" "43" "-1"
+"49" "girl_makeup_03.gif" "extras" "infront" "37" "42" "-1"
+"50" "girl_makeup_04.gif" "extras" "infront" "37" "42" "-1"
+"51" "girl_makeup_05.gif" "extras" "infront" "37" "46" "-1"
+"52" "girl_makeup_06.gif" "extras" "infront" "37" "46" "-1"
+"61" "girl_hair_01.gif" "hair" "hair" "19" "21" "-1"
+"62" "girl_hair_02.gif" "hair" "hair" "19" "21" "-1"
+"63" "girl_hair_03.gif" "hair" "hair" "24" "21" "-1"
+"64" "girl_hair_04.gif" "hair" "hair" "28" "25" "-1"
+"65" "girl_hair_05.gif" "hair" "hair" "28" "25" "-1"
+"66" "girl_hair_06.gif" "hair" "hair" "29" "19" "-1"
+"67" "girl_hair_07.gif" "hair" "hair" "24" "9" "-1"
+"68" "girl_hair_08.gif" "hair" "hair" "25" "26" "-1"
+"69" "girl_hair_09.gif" "hair" "hair" "27" "24" "-1"
+"70" "girl_hair_10.gif" "hair" "hair" "29" "26" "-1"
+"71" "girl_hair_11.gif" "hair" "hair" "28" "26" "-1"
+"72" "girl_hair_12.gif" "hair" "hair" "28" "26" "-1"
+"73" "girl_hair_13.gif" "hair" "hair" "30" "27" "-1"
+"74" "girl_hair_14.gif" "hair" "hair" "30" "26" "-1"
+"75" "girl_hair_15.gif" "hair" "hair" "30" "25" "-1"
+"76" "girl_hair_16.gif" "hair" "hair" "30" "17" "-1"
+"77" "girl_hair_17.gif" "hair" "hair" "20" "27" "-1"
+"78" "girl_hair_18.gif" "hair" "hair" "30" "16" "-1"
+"79" "girl_hair_19.gif" "hair" "hair" "27" "23" "-1"
+"80" "girl_hair_20.gif" "hair" "hair" "30" "22" "-1"
+"81" "girl_hair_21.gif" "hair" "hair" "24" "23" "-1"
+"82" "girl_hair_22.gif" "hair" "hair" "23" "23" "-1"
+"83" "girl_hair_23.gif" "hair" "hair" "23" "24" "-1"
+"84" "girl_hair_24.gif" "hair" "hair" "27" "25" "-1"
+"85" "girl_hair_25.gif" "hair" "hair" "27" "18" "-1"
+"86" "girl_hair_26.gif" "hair" "hair" "27" "21" "-1"
+"87" "girl_hair_27.gif" "hair" "hair" "28" "19" "-1"
+"88" "girl_hair_28.gif" "hair" "hair" "18" "16" "-1"
+"89" "girl_hair_29.gif" "hair" "hair" "22" "7" "-1"
+"90" "girl_hair_30.gif" "hair" "hair" "20" "25" "-1"
+"91" "girl_hair_31.gif" "hair" "hair" "31" "22" "-1"
+"92" "girl_hair_32.gif" "hair" "hair" "29" "22" "-1"
+"93" "girl_hair_33.gif" "hair" "hair" "27" "23" "-1"
+"94" "girl_hair_34.gif" "hair" "hair" "30" "25" "-1"
+"95" "girl_hair_35.gif" "hair" "hair" "19" "23" "-1"
+"96" "girl_undies_22.gif" "pants" "underware" "39" "70" "-1"
+"97" "girl_undies_23.gif" "pants" "underware" "40" "70" "-1"
+"98" "girl_undies_24.gif" "pants" "underware" "39" "71" "-1"
+"99" "girl_undies_15.gif" "pants" "underware" "39" "71" "-1"
+"100" "girl_undies_14.gif" "pants" "underware" "39" "70" "-1"
+"101" "girl_undies_13.gif" "pants" "underware" "39" "70" "-1"
+"102" "girl_undies_12.gif" "pants" "underware" "39" "70" "-1"
+"103" "girl_undies_11.gif" "pants" "underware" "40" "82" "-1"
+"104" "girl_undies_09.gif" "pants" "underware" "40" "72" "-1"
+"105" "girl_undies_10.gif" "pants" "underware" "40" "77" "-1"
+"112" "girl_undies_17.gif" "pants" "underware" "45" "96" "-1"
+"113" "girl_undies_18.gif" "pants" "underware" "40" "80" "-1"
+"114" "girl_undies_19.gif" "pants" "underware" "39" "70" "-1"
+"115" "girl_undies_20.gif" "pants" "underware" "39" "69" "-1"
+"116" "girl_undies_21.gif" "pants" "underware" "38" "68" "-1"
+"168" "girl_hair_36.gif" "hair" "hair" "18" "20" "-1"
+"169" "girl_hair_37.gif" "hair" "hair" "25" "24" "-1"
+"170" "girl_hair_38.gif" "hair" "hair" "21" "24" "-1"
+"171" "girl_hair_39.gif" "hair" "hair" "27" "24" "-1"
+"172" "girl_hair_40.gif" "hair" "hair" "24" "26" "-1"
+"173" "girl_hair_41.gif" "hair" "hair" "27" "22" "-1"
+"174" "girl_hair_42.gif" "hair" "hair" "29" "19" "-1"
+"175" "girl_hair_43.gif" "hair" "hair" "26" "22" "-1"
+"176" "girl_hair_44.gif" "hair" "hair" "26" "24" "-1"
+"177" "girl_hair_45.gif" "hair" "hair" "20" "9" "-1"
+"178" "girl_hair_46.gif" "hair" "hair" "14" "23" "-1"
+"179" "girl_hair_47.gif" "hair" "hair" "25" "22" "-1"
+"180" "girl_hair_48.gif" "hair" "hair" "24" "23" "-1"
+"181" "girl_hair_49.gif" "hair" "hair" "25" "22" "-1"
+"182" "girl_hair_50.gif" "hair" "hair" "28" "24" "-1"
+"183" "girl_hair_51.gif" "hair" "hair" "28" "23" "-1"
+"184" "girl_hair_52.gif" "hair" "hair" "30" "19" "-1"
+"185" "girl_hair_53.gif" "hair" "hair" "30" "19" "-1"
+"186" "girl_hair_54.gif" "hair" "hair" "27" "25" "-1"
+"187" "girl_hair_55.gif" "hair" "hair" "25" "21" "-1"
+"188" "girl_hair_56.gif" "hair" "hair" "29" "22" "-1"
+"208" "girl_eyes_blue.gif" "extras" "infront" "36" "46" "-1"
+"209" "girl_eyes_brown.gif" "extras" "infront" "36" "45" "-1"
+"210" "girl_eyes_green.gif" "extras" "infront" "36" "45" "-1"

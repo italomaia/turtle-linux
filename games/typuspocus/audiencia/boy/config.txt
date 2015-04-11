@@ -1,0 +1,91 @@
+#
+# HCApplet config file, all of these name value pairs can be placed in 
+# PARAM tags in the APPLET tag if desired
+#
+################################################################
+
+HCDataSetFile_version
+"1.0"
+HCDataSetFile_fields
+"0"			"name"
+"1"			"value"
+
+HCDataSetFile_data
+"id"			"chaticons"
+"name"			"StorTrooper Designer"
+"author"		"Stor Entertainment Ltd"
+"authorEmail"		"goods@stor.co.uk"
+"infoUrl"		"http://www.stortroopers.com/info.html"
+"infoTarget"		"_blank"
+"helpUrl"		"http://www.stortroopers.com/help.html"
+"helpTarget"		"main"
+"size"			"exact"
+"inline"		"yes"
+"popout"		"no"
+"startsAs"		"inline"
+
+"loadingText"		" The storTrooper editor is loading, complete with base wardrobe. It could take a little while, so hang in there...!"
+"loadingBGColor"	"666600"
+"loadingTextColor"	"ffffff"
+"loadingFontSize"	"12"
+"loadingFontFace"	"georgia"
+"loadingTextX"		"15"
+"loadingTextY"		"45"
+"defaultTarget"		"main"
+"mainBGColor"		"ffffff"
+"bottomBGColor"		"999999"
+"articlesBGColor"	"ffffff"
+"dataPath"		"data/"
+"imagePath"		"data/images/"
+"articlesImagePath"	"data/images/articles/"
+
+"gifAndArticlesPostURL" "save.php"
+"saveArticlePostURL"	"admin_save.php"
+
+"scrollbarBgColor"      "ffffff"
+"scrollbarColor"        "666600"
+"scrollbarBorderColor"  "000000"
+
+
+# Relative to dataPath
+"articlesConfigFile"	"articles.php"
+
+# url and target of frame containing users icon, so it can be refreshed
+"pullUrl"		"http://www.stortroopers.com/classic_boy"
+"pullTarget"		"_self"
+
+# layer order definitions-currently unused type should be set to "unspecified"
+"layer0"  "unspecified"
+"layer1"  "behind"
+"layer2"  "unspecified"
+"layer3"  "body"
+
+"layer4"  "unspecified"
+"layer5"  "hair"
+"layer6"  "unspecified"
+"layer7"  "underware"
+"layer8"  "unspecified"
+"layer9"  "tops"
+"layer10"  "unspecified"
+"layer11"  "shoes"
+"layer12"  "bottoms"
+"layer13"  "jackets"
+"layer14"  "hats"
+"layer15"  "infront"
+"layer16"  "unspecified"
+
+
+
+# By setting "noLimits_"+layername to "yes" means that you do not have to 
+# remove the above layers of clothes before changing this layer (e.g. would
+# be silly to have to remove a jacket to have to change the shoes, or 
+# visa-versa) Also it means that this layer is not only not effected by
+# other clothes layers, it's does not affect other clothes layers. This 
+# means that where it is in the layer stack only effects the plotting
+# of the article!
+"noLimits_infront"   "yes"
+"noLimits_hats"	     "yes"
+"noLimits_shoes"     "yes"
+"noLimits_hair"	     "yes"
+"oneItem_body"	     "yes"
+

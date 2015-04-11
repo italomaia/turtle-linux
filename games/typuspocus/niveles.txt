@@ -1,0 +1,138 @@
+Historia
+--------
+Arranca como alguien que no sabe magia, pero heredó/robó/encontró un libro de magia y está tirando sus propios hechizos. Cuando le va bien, parece como que triunfa y va para mejor, pero sólo se mete en mayores quilombos.
+
+Intro
+_____
+Alternate:
+
+My son, this will be a challenging day for you.
+
+You have always been the black sheep of our great family.
+
+But your old man, the Great Grossini, is not what he used to be.
+
+I'm suffering from Flaccid Wand, so tonite you will replace me.
+
+Farewell!
+
+-------
+slide 1:
+You are the black sheep of the most traditional family of magicians. 
+slide 2:
+Your father, the great Grossini, got you a job as his backstage assistant.
+slide 3:
+But the old man isn't what he used to, he suffers from flaccid Wand, and tonight he needs you to replace him.
+slide 4:
+You are going on stage armed only with your wand and a magician's handbook.
+
+
+
+Teatro prestado
+---------------
+ Audiencia:        Pocos, variados
+ Objeto:           Un conejo
+ Hechizo:          Hocus pocus, disappear now
+ Historia-intro:   Cast the spell as fast and accurrately as you can. You can backspace and fix your mistakes.
+ Historia-goodEnd: Great! You receive an offer to perform in the "Paris Opera".
+ Historia-badEnd:  You are not even worthy of this demo level.
+
+Opera
+-----
+ Audiencia:        Gente vestida bien
+ Objeto:           La mascara del fantasma de la opera
+ Hechizo:          evanesco simulatio, phantasma spectaculum. initium capere.
+ Historia-intro:   Dissapear the Phantom's mask, that will embarass him and make him leave.
+ Historia-goodEnd: Your act was great! You are invited to perform the Halftime show at the local basquetball finals.
+ Historia-badEnd:  You blew it, your father disinherited you. You get a job coding ruby on rails.
+
+
+Magic arena
+-----------
+ Audiencia:        Jugadores de basquet o deportistas
+ Objeto:           Zapatillas grandes.
+ Hechizo:          luckyus calceus sneakerus, evanesco consagrus, valius playerus, propugnator turma championus.
+ Historia-intro:   The locals are loosing by 12, you must dissapear the visitor's MVP lucky sneakers.
+ Historia-goodEnd: Thanks to your help the locals win and you get invited to do your trick at the after party.
+ Historia-badEnd:  An Angry mob of the local fans chases you around the stadium.
+
+
+Fiesta musical
+--------------
+ Audiencia:        Hip-hoperos o darkies
+ Objeto:           Alcohol, drogas, hacer un mix
+ Hechizo:          sexus drugus rockanrolus, captivus crowdimus yowasaaap. cops and hardcopy marihuanus boozelion, cocuchus chuchu fuchu..
+ Historia-intro:   You were supposed to dissapear a milli vanilli cd, instead you must vanish te drugs to hide them from the cops.
+ Historia-goodEnd: You got away clean, and kept a lot of famous people out of jail. You are going to Las Vegas now!!
+ Historia-badEnd:  You go to jail charged with drug possession. And become RAUL's new girlfriend.
+
+
+Las Vegas
+---------
+ Audiencia:        Gente adinerada
+ Objeto:           papeles y documentos
+ Hechizo:          factus taxus nuLus, nilun actin, evaDus fiscus IRSus, whySaw Elvis Bellagium 11 ocean's cardus impustum disapiros ipsofactum.
+ Historia-intro:   You get to Las Vegas to perform in a Casino, but the owners want to take advantage of your power to evade taxes.
+ Historia-goodEnd: The IRS wants you for beeing an accesory to tax evasion. They send you Africa where they'll never find you
+ Historia-badEnd:  Your act was a total failure, you got wasted and lost all your money playing craps.
+
+
+Black magic
+-----------
+ Audiencia:        Africanitos de la tribu
+ Objeto:           Un muricélago, o algún animal raro
+ Hechizo:          Batsimus chicaka aFrIcuN triBuson, ill chikakun medicor, nigrum. comedo. crudus...pain cooking Shutlewor meellon cHuNgo.
+ Historia-intro:   You go to live with a tribe in africa,  they find out you are a wizard and want you to heal their ill sacred animal
+ Historia-goodEnd: You dissapeared the sacred animal. The angry natives start chasing you around the jungle.
+ Historia-badEnd:  The natives made a tasty casserole out of you.
+
+Tatooine
+--------
+ Audiencia:        Robots de star wars
+ Objeto:           Aspiradora loca
+ Hechizo:          Arturitum Vacuumcleanerum Ev4niscum c3p0 venusiun rescusum grossum ph1ll1ps, disapirum spacious robotitus shakulus.
+ Historia-intro:   While running away from the natives, a spaceship abdu^H^H^H^Hrescues you. The venusians ask you to help them vanish a hitchhiker.
+ Historia-goodEnd: Since you were so helpfull, the venusians send you back to earth in an individual spaceship.
+ Historia-badEnd:  Because you were unwilling to cooperate, the venusians performed a 'light saber anal probing' on you.
+
+Area 51
+-------
+ Audiencia:        Marcianitos y men in black
+ Objeto:           un marcianito de roswell
+ Hechizo:          Marcianus 51area alf rosswellin didosong untilyourestingherewithme evanisum marcianus y guarda que viene molderrr.
+ Historia-intro:   Your ship was running a pirated OS and crashed in new mexico. The FBI captures you and asks you to dissapear some evidence of the alien landings.
+ Historia-goodEnd: Now that the evidence exists only on your memory, the FBI makes sure you won't talk by putting a cap in your head
+ Historia-badEnd:  You couldn't do it. But you'll have a lot of time to practice since you are never leaving area 51
+
+Graveyard
+----------
+ Audiencia:        Esqueletos
+ Objeto:           Estatuilla de Anubis
+ Hechizo:          vaderetrum satinus anubisun chungus, transformix this decayed form to Mumm-ra the Everliving and the puwur of christus will savius vox. 
+ Historia-intro:   Ok, you died, and went to hell, you can escape to heaven by dissapearing Anubis. All the dead gather around to watch...
+ Historia-goodEnd: You did it!!! Now you go to heaven, that happy place we all dream about as kids, that place where men and women love each other. 
+ Historia-badEnd:  You stay in hell. At least you won't have problems finding a lawyer if you ever come to need one.
+
+
+EL LUGAR FELIZ
+------------------
+ Audiencia:        Todos desnudos
+ Objeto:           CUZCO la cabra
+ Hechizo:          caelum CUZCUS 13 paradisiun, revivisco animalis playboyus housus, pornus sexus gross klunx workus my clunk essta noshi inbolus minusem. miau miau.
+ Historia-intro:   Here we are, it's beautiful, everything that dissapears here goes back to earth, so you are going to revive a lovely goat now!
+ Historia-goodEnd: Congratulations! You fullfilled your destiny as a magician!
+ Historia-badEnd:  Mmm... Too bad you couldn't do it, but hey, a horde of naked angels offers to console you!!
+
+
+Niveles de mago
+===============
+Mandrake
+Gandalf
+Harry Poter
+David Copperfield
+Orko 
+Merlyn
+Harry Houdini
+Skeletor
+Mumm-Ra
+Lord Zedd

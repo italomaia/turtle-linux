@@ -1,0 +1,135 @@
+#
+#
+################################################################
+
+HCDataSetFile_version
+"1.0"
+
+HCDataSetFile_fields
+# unique id, probably the imagename with out the extension, but can be anything as long
+#  as it's constant and unique 
+"0"	"id"
+
+# full image name and path from the articlesImagePath directory specified in the config.txt file
+# probably just the name though, including the extension, the format can be GIF or JPEG
+# using any of the standard file extensions
+"1"	"imageName"
+
+# This could be body, pants, hair, hats, tops, bottoms, shoes, extras or unknown
+"2"	"category"
+
+# This defines which layer the item sits on the order and number of these layers
+# are defined in the config.txt file
+"3"	"layer"
+
+# co-ordinates that the gifs snap to on the person/alien
+"4"	"snapPosX"
+"5"	"snapPosY"
+
+# an order number defining in which order the user has placed the articles
+# set to -1 if the user is not wearing 
+"6" "wearing"
+
+"7" "waldrobe"
+
+HCDataSetFile_data
+
+"111" "skeletor.gif" "body" "body" "26" "28" "-1"
+"15" "boy_jeans_01.gif" "bottoms" "bottoms" "39" "94" "0.05"
+"50246" "boy_hair_44.gif" "hair" "hair" "24" "10" "-1"
+"50245" "boy_hair_43.gif" "hair" "hair" "30" "12" "-1"
+"50244" "boy_hair_42.gif" "hair" "hair" "24" "23" "-1"
+"31" "boy_undies_01.gif" "pants" "underware" "40" "94" "0.01"
+"32" "boy_undies_02.gif" "pants" "underware" "40" "94" "0.01"
+"33" "boy_undies_03.gif" "pants" "underware" "40" "94" "0.01"
+"34" "boy_undies_04.gif" "pants" "underware" "40" "70" "0.01"
+"39" "boy_hair_01.gif" "hair" "hair" "31" "18" "-1"
+"40" "boy_hair_02.gif" "hair" "hair" "33" "19" "-1"
+"41" "boy_hair_03.gif" "hair" "hair" "31" "18" "-1"
+"42" "boy_hair_04.gif" "hair" "hair" "34" "23" "-1"
+"44" "boy_hair_06.gif" "hair" "hair" "31" "17" "-1"
+"45" "boy_hair_07.gif" "hair" "hair" "31" "23" "-1"
+"46" "boy_hair_08.gif" "hair" "hair" "32" "28" "-1"
+"47" "boy_hair_09.gif" "hair" "hair" "34" "22" "-1"
+"48" "boy_hair_10.gif" "hair" "hair" "31" "22" "-1"
+"49" "boy_hat_01.gif" "hats" "hats" "31" "18" "-1"
+"50" "boy_hat_02.gif" "hats" "hats" "30" "22" "-1"
+"50240" "shades_06.gif" "extras" "infront" "34" "45" "-1"
+"50233" "glasses_06.gif" "extras" "infront" "36" "47" "-1"
+"50234" "glasses_07.gif" "extras" "infront" "36" "47" "-1"
+"50235" "shades_01.gif" "extras" "infront" "34" "46" "-1"
+"58" "boy_shoes_01.gif" "shoes" "shoes" "35" "127" "0.01"
+"59" "boy_shoes_02.gif" "shoes" "shoes" "37" "128" "0.01"
+"60" "boy_shoes_03.gif" "shoes" "shoes" "35" "128" "0.01"
+"61" "boy_shoes_04.gif" "shoes" "shoes" "37" "125" "0.01"
+#"50243" "computer.gif" "extras" "infront" "3" "100" "-1"
+"73" "boy_hair_13.gif" "hair" "hair" "35" "28" "-1"
+"79" "boy_facialhair_03.gif" "hair" "hair" "35" "56" "-1"
+"84" "boy_facialhair_02.gif" "hair" "hair" "43" "58" "-1"
+"85" "boy_facialhair_01.gif" "hair" "hair" "44" "58" "-1"
+"86" "boy_hair_11.gif" "hair" "hair" "34" "25" "-1"
+"87" "boy_hair_12.gif" "hair" "hair" "34" "25" "-1"
+"50236" "shades_02.gif" "extras" "infront" "36" "47" "-1"
+"50237" "shades_03.gif" "extras" "infront" "35" "45" "-1"
+"50238" "shades_04.gif" "extras" "infront" "36" "46" "-1"
+"50239" "shades_05.gif" "extras" "infront" "33" "45" "-1"
+"50220" "boy_hair_41.gif" "hair" "hair" "27" "23" "-1"
+"50219" "boy_hair_40.gif" "hair" "hair" "28" "23" "-1"
+#"50189" "cat_black.gif" "extras" "infront" "7" "108" "-1"
+"50218" "boy_hair_39.gif" "hair" "hair" "27" "23" "-1"
+"50217" "boy_hair_38.gif" "hair" "hair" "32" "24" "-1"
+"50216" "boy_hair_37.gif" "hair" "hair" "28" "20" "-1"
+"50215" "boy_hair_36.gif" "hair" "hair" "31" "22" "-1"
+"50214" "boy_hair_35.gif" "hair" "hair" "34" "22" "-1"
+"50213" "boy_hair_34.gif" "hair" "hair" "30" "19" "-1"
+"50212" "boy_hair_33.gif" "hair" "hair" "31" "21" "-1"
+"50211" "boy_hair_32.gif" "hair" "hair" "32" "23" "-1"
+"50210" "boy_hair_31.gif" "hair" "hair" "31" "21" "-1"
+"50209" "boy_hair_30.gif" "hair" "hair" "31" "22" "-1"
+"50208" "boy_hair_29.gif" "hair" "hair" "31" "21" "-1"
+"50207" "boy_hair_28.gif" "hair" "hair" "34" "25" "-1"
+"50206" "boy_hair_27.gif" "hair" "hair" "33" "26" "-1"
+"50205" "boy_hair_26.gif" "hair" "hair" "34" "25" "-1"
+"50204" "boy_hair_25.gif" "hair" "hair" "34" "26" "-1"
+"50203" "boy_hair_24.gif" "hair" "hair" "32" "24" "-1"
+"50202" "boy_hair_23.gif" "hair" "hair" "30" "21" "-1"
+"50201" "boy_hair_22.gif" "hair" "hair" "29" "21" "-1"
+"50200" "boy_hair_21.gif" "hair" "hair" "34" "25" "-1"
+"50199" "boy_hair_14.gif" "hair" "hair" "32" "21" "-1"
+"50232" "glasses_05.gif" "extras" "infront" "36" "47" "-1"
+"50228" "glasses_01.gif" "extras" "infront" "35" "44" "-1"
+"144" "boy_hat_03.gif" "hats" "hats" "27" "18" "0.05"
+"147" "boy_facialhair_04.gif" "hair" "hair" "35" "54" "-1"
+#"50002" "cat_brown.gif" "extras" "infront" "7" "108" "-1"
+"50229" "glasses_02.gif" "extras" "infront" "34" "47" "-1"
+"50230" "glasses_03.gif" "extras" "infront" "36" "48" "-1"
+"50231" "glasses_04.gif" "extras" "infront" "36" "48" "-1"
+"50192" "boy_facialhair_05.gif" "hair" "hair" "46" "64" "-1"
+"50191" "boy_facialhair_07.gif" "hair" "hair" "43" "57" "-1"
+"50190" "boy_facialhair_06.gif" "hair" "hair" "43" "57" "-1"
+"50177" "boy_hair_20.gif" "hair" "hair" "32" "22" "-1"
+"50175" "boy_hair_18.gif" "hair" "hair" "34" "26" "-1"
+"50176" "boy_hair_19.gif" "hair" "hair" "32" "15" "-1"
+"50022" "boy_hair_16.gif" "hair" "hair" "29" "19" "-1"
+"50021" "boy_hair_15.gif" "hair" "hair" "33" "21" "-1"
+"50174" "boy_hair_17.gif" "hair" "hair" "34" "26" "-1"
+"50184" "boy_hat_05.gif" "hats" "hats" "26" "27" "0.05"
+"105" "boy_jacket_02.gif" "tops" "jackets" "25" "68" "-1"
+"105" "boy_jacket_02_brazos_arriba.gif" "tops" "jackets" "25" "68" "0"
+"106" "boy_jacket_01.gif" "tops" "jackets" "25" "68" "-1"
+"106" "boy_jacket_01_brazos_arriba.gif" "tops" "jackets" "25" "68" "0"
+"107" "boy_shirt_02.gif" "tops" "tops" "31" "67" "-1"
+"107" "boy_shirt_02_brazos_arriba.gif" "tops" "tops" "31" "67" "0"
+"108" "boy_shirt_04.gif" "tops" "tops" "28" "68" "-1"
+"108" "boy_shirt_04_brazos_arriba.gif" "tops" "tops" "28" "68" "0"
+"109" "boy_tee_02.gif" "tops" "tops" "31" "69" "-1"
+"109" "boy_tee_02_brazos_arriba.gif" "tops" "tops" "31" "69" "0"
+"110" "boy_tee_03.gif" "tops" "tops" "32" "70" "-1"
+"111" "boy_tee_04.gif" "tops" "tops" "31" "70" "-1"
+"112" "boy_tee_05.gif" "tops" "tops" "31" "70" "-1"
+"113" "boy_tee_06.gif" "tops" "tops" "39" "70" "-1"
+"110" "boy_tee_03_brazos_arriba.gif" "tops" "tops" "32" "70" "0"
+"111" "boy_tee_04_brazos_arriba.gif" "tops" "tops" "31" "70" "0"
+"112" "boy_tee_05_brazos_arriba.gif" "tops" "tops" "31" "70" "0"
+"113" "boy_tee_06_brazos_arriba.gif" "tops" "tops" "39" "70" "0"
+
