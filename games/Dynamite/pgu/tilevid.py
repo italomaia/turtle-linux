@@ -463,8 +463,8 @@ class Tilevid:
 			s._rect = pygame.Rect(s.rect)
 		
 	def loop_sprites(self):
-		as = self.sprites[:]
-		for s in as:
+		as_sprite = self.sprites[:]
+		for s in as_sprite:
 			if hasattr(s,'loop'):
 				s.loop(self,s)
 
@@ -474,8 +474,8 @@ class Tilevid:
 
 		layer = self.layers[0]
 
-		as = self.sprites[:]
-		for s in as:
+		as_sprite = self.sprites[:]
+		for s in as_sprite:
 			self._tilehits(s)
 	
 	def _tilehits(self,s):
@@ -561,12 +561,12 @@ class Tilevid:
 
 
 	def loop_spritehits(self):
-		as = self.sprites[:]
+		as_sprite = self.sprites[:]
 		
 		groups = {}
 		for n in range(0,31):
 			groups[1<<n] = []
-		for s in as:
+		for s in as_sprite:
 			g = s.groups
 			n = 1
 			while g:
@@ -574,7 +574,7 @@ class Tilevid:
 				g >>= 1
 				n <<= 1
 				
-		for s in as:
+		for s in as_sprite:
 			if s.agroups!=0:
 				rect1,rect2 = s.rect,Rect(s.rect)
 				if rect1.centerx < 320: rect2.x += 640
