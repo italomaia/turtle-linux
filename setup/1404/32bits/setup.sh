@@ -5,14 +5,14 @@
 # . /etc/bash_completion
 # 
 apt-get update
-apt-get purge -y abiword* \  # none
-gnumeric* \  # none
-firefox* \  # midori
-parole \  # mplayer2
-gmusicbrowser \  # quodlibet
-mousepad  \ # medit
-gnome-mines  \  # because ...
-gnome-sudoku  \ # because ...
+apt-get purge -y abiword*  # none
+apt-get purge -y gnumeric*  # none
+apt-get purge -y firefox*  # midori
+apt-get purge -y parole  # mplayer2
+apt-get purge -y gmusicbrowser  # quodlibet
+apt-get purge -y mousepad  # medit
+apt-get purge -y gnome-mines   # because ...
+apt-get purge -y gnome-sudoku  # because ...
 
 # editors
 apt-get install -y ne medit editra
