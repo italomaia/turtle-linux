@@ -68,7 +68,7 @@ class FadingPlayer(media.Player):
                 self.volume = min(1.0, max(0.0, volume))
             if self.fade_time == 0.0:
                 self.stop_fade(dt)
-        super(FadingPlayer, self).dispatch_events(dt)
+        #super(FadingPlayer, self).dispatch_events(dt)
 
 
 def makeorder(func):
