@@ -1314,7 +1314,7 @@ class TextMenu(Menu):
             option.label.font_size = self.font_size * sy
             option.label.anchor_x = "left"
             option.label.anchor_y = "bottom"
-            option.label.multiline = True
+            #option.label.multiline = True
             option.label.set_style("align", self.halign)
 
         # Compute the shape.
