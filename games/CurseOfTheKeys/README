@@ -1,0 +1,111 @@
+Curse of the Keys (C64-Remake) V0.9.2
+
+1. License Information
+2. Manual
+3. Difference to the original
+4. Misc
+
+1) --------------------
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Part of the graphic tiles used in this program is the public 
+domain roguelike tileset "RLTiles".
+Some of the tiles have been modified by Dominic Kexel.
+
+You can find the original tileset at:
+<http://rltiles.sf.net>
+
+Part of the graphic tiles used in this program are taken from
+<http://rivendell.fortunecity.com/goddess/268/>
+
+Images used for backgrounds etc. are taken from
+<http://morguefile.com/>
+
+All sounds are taken from
+<http://soundsnap.com>
+
+(c) 2008 by Dominic Kexel
+
+
+2) --------------------
+
+To start the game, simply run start.py.
+
+The goal of the game is to collect all three
+cursed keys that are distributed all over the
+kingdom of Kurzur. With these keys, you are
+able to get to the nameless wizard which threatens
+the kingdom and beat him.
+
+There are 4 regions, in every but the one
+you started you will find one key.
+
+
+- MOVEMENT:
+
+To move around, use the arrow keys.
+
+Press s on the world map to toggle music on/off
+
+Press ESC on the world map to toggle fullscreen on/off
+
+Press SPACE to enter a location
+
+- LOCATIONS:
+
+Village:	Here you can hire new warriors and buy rations.
+Settlement:	Like village, but more expensive and you can also
+		hire new followers.
+Capital city:	If you run out of gold/warriors/rations, the major of
+		the city will help you out.
+Ruin/Fortress:	I don't know, maybe you should investigate.
+
+- FOLLOWERS:
+
+Scout: 		makes you move faster.
+Carrier:	you lose only half your gold/rations when
+		you lose a fight.
+Miracle heal: 	revives your fallen warriors sometimes.
+Wizard: 	destroys enemies sometimes.
+Ship: 		you can move on water.
+Navigator:	you can move faster on water.
+
+- RATIONS:
+
+Every month, your warriors need food, so you should buy rations sometimes
+
+3) --------------------------
+
+You will fight every time with all of your warriors,
+you can not choose how many will fight.
+
+The game is much, much more faster.
+
+There is no extra screen that tells you when a month
+has passed.
+
+There is no option to search a ruin 'carefully' or
+'not carefully'
+
+And some other things........
+
+4) --------------------------
+
+There are some options in src/options.py
+
+The is not finished yet, there is still some
+work to do, like optimizing the ugly code or
+improving the graphics
+
