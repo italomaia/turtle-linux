@@ -24,9 +24,6 @@ midori  # browser
 # media
 apt-get install -y quodlibet mplayer2
 
-# for gamers
-apt-get install -y python-pygame
-
 # python dev libraries
 apt-get install -y build-essential python-dev python-pip
 apt-get install -y libssl-dev libxml2-dev libxslt1-dev libssl-dev libffi-dev libpcre3-dev
@@ -35,7 +32,12 @@ apt-get install -y libssl-dev libxml2-dev libxslt1-dev libssl-dev libffi-dev lib
 apt-get install -y ipython bpython \
 kiki \  # regex tester
 git-core  \  # vcs
-git-cola  \  # git manager
+git-cola   # git manager
+
+# for gamers
+apt-get install -y python-pygame
+apt-get install -y renpy ardentryst
+
 
 pip install virtualenvwrapper==4.3.2
 pip install numpy==1.8.2
