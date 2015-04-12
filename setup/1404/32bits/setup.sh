@@ -44,7 +44,12 @@ pip install numpy==1.8.2
 pip install PyOpenGL-accelerate==3.1
 
 apt-get autoremove -y
+
+dpkg-divert --local --add /etc/init.d/systemd-logind
+ln -s /bin/true /etc/init.d/systemd-logind
+
 apt-get upgrade -y
+rm -r ~/turtle-linux
 
 # in case of error:
 # see https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1325142
