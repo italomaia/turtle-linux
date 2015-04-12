@@ -1,3 +1,4 @@
+cd ~/
 apt-get install git-core -y
 git clone https://github.com/italomaia/turtle-linux.git
 
@@ -18,3 +19,6 @@ rm *.png
 cp ~/turtle-linux/images/wallpaper/* /usr/share/xfce4/backdrops/
 cd /usr/share/xfce4/backdrops/
 ln -s 1366x768_by_dasAdam_adapted.png xubuntu-wallpaper.png
+
+rm /usr/share/pixmaps/xubuntu-logo-menu.png
+cp ~/turtle-linux/images/logo-menu.png /usr/share/pixmaps/xubuntu-logo-menu.png
