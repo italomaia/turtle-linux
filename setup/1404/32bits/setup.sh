@@ -43,8 +43,8 @@ pip install virtualenvwrapper==4.3.2
 pip install numpy==1.8.2
 pip install PyOpenGL-accelerate==3.1
 
-apt-get autoremove
-apt-get upgrade
+apt-get autoremove -y
+apt-get upgrade -y
 
 # in case of error:
 # see https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1325142
