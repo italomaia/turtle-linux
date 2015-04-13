@@ -3,7 +3,7 @@
 import os
 from datetime import datetime, timedelta
 from gi.repository import Gtk, Gdk
-from subprocess import call
+from subprocess import call, Popen
 from glob import glob
 
 GAMES_PATH = '/usr/games/'
@@ -71,7 +71,7 @@ class Game(Gtk.Image):
 
         if key.button == Gdk.BUTTON_PRIMARY:
             os.chdir(self.game_path)
-            call(['/usr/bin/env', 'python', self.run_game_path])
+            Popen(['/usr/bin/env', 'python', self.run_game_path])
     
 
 class Main(object):
