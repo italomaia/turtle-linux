@@ -16,6 +16,9 @@ cp -r * /usr/games/
 cd ~/turtle-linux/apps/vapor
 python setup.py install
 
+rm /usr/share/pixmaps/xubuntu-logo-menu.png
+cp ~/turtle-linux/images/logo-menu.png /usr/share/pixmaps/xubuntu-logo-menu.png
+
 cd /usr/share/xfce4/backdrops/
 # remove xubuntu wallpapers
 rm *.png
@@ -23,5 +26,5 @@ cp ~/turtle-linux/images/wallpaper/* /usr/share/xfce4/backdrops/
 cd /usr/share/xfce4/backdrops/
 ln -s 1366x768_by_dasAdam_adapted.png xubuntu-wallpaper.png
 
-rm /usr/share/pixmaps/xubuntu-logo-menu.png
-cp ~/turtle-linux/images/logo-menu.png /usr/share/pixmaps/xubuntu-logo-menu.png
+
+rm -r ~/turtle-linux
