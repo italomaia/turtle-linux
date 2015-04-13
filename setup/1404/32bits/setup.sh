@@ -3,7 +3,7 @@
 #
 # to enable auto-completion type:
 # . /etc/bash_completion
-# 
+#
 apt-get update
 apt-get purge -y abiword*  # none
 apt-get purge -y gnumeric*  # none
@@ -37,6 +37,7 @@ git-cola   # git manager
 # for gamers
 apt-get install -y python-pygame
 apt-get install -y renpy ardentryst
+apt-get install -y pcsxr mupen64plus desmume
 
 
 pip install virtualenvwrapper==4.3.2
@@ -49,7 +50,6 @@ dpkg-divert --local --add /etc/init.d/systemd-logind
 ln -s /bin/true /etc/init.d/systemd-logind
 
 apt-get upgrade -y
-rm -r ~/turtle-linux
 
 # in case of error:
 # see https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1325142
