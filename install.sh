@@ -13,6 +13,9 @@ chmod +x install-avbin-linux-x86-64-v10
 cd ~/turtle-linux/games
 cp -r * /usr/games/
 
+cd ~/turtle-linux/apps/vapor
+python setup.py install
+
 cd /usr/share/xfce4/backdrops/
 # remove xubuntu wallpapers
 rm *.png
