@@ -46,7 +46,7 @@ class Game(Gtk.Image):
 
         box.connect('enter-notify-event', self.on_mouse_over)
         box.connect('leave-notify-event', self.on_mouse_leave)
-        box.set_tooltip_text(u'Click to play %s' % self.name())
+        box.set_tooltip_text(u'Clique para jogar %s' % self.name())
         return box
 
     def widget(self):
