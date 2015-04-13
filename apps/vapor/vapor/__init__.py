@@ -6,6 +6,8 @@ from gi.repository import Gtk, Gdk
 from subprocess import call, Popen
 from glob import glob
 
+GLADE_FILE = 'main.glade'
+GLADE_PATH = os.path.exists(GLADE_FILE) and 'main.glade' or os.path.join('/usr/local/vapor/glade', GLADE_FILE)
 GAMES_PATH = '/usr/games/'
 
 
@@ -136,12 +138,13 @@ class Main(object):
         widget.run()
 
 
-builder = Gtk.Builder()
-builder.add_from_file('main.glade')
-main = Main(builder)
-builder.connect_signals(main)
+def main():
+    builder = Gtk.Builder()
+    builder.add_from_file(GLADE_PATH)
+    main = Main(builder)
+    builder.connect_signals(main)
 
-main_window = builder.get_object('main_window')
-main_window.show_all()
+    main_window = builder.get_object('main_window')
+    main_window.show_all()
 
-Gtk.main()
+    Gtk.main()
