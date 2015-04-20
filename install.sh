@@ -33,4 +33,3 @@ cp ~/turtle-linux/images/grub/turtle-background.png /boot/grub
 cp ~/turtle-linux/images/splash/wallpaper.png /lib/plymouth/themes/xubuntu-logo/wallpaper.png
 
 rm -r ~/turtle-linux
-exit
