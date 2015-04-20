@@ -51,6 +51,7 @@ dpkg-divert --local --add /etc/init.d/systemd-logind
 ln -s /bin/true /etc/init.d/systemd-logind
 
 apt-get upgrade -y
+apt-get autoclean
 
 # in case of error:
 # see https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1325142
