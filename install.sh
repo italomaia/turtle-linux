@@ -24,7 +24,13 @@ cd /usr/share/xfce4/backdrops/
 rm *.png
 cp ~/turtle-linux/images/wallpaper/* /usr/share/xfce4/backdrops/
 cd /usr/share/xfce4/backdrops/
+# make turtle linux wallpaper the default wallpaper
 ln -s 1366x768_by_dasAdam_adapted.png xubuntu-wallpaper.png
 
+cp ~/turtle-linux/images/grub/turtle-background.png /boot/grub
+
+# overwrite splash screen image
+cp ~/turtle-linux/images/splash/wallpaper.png /lib/plymouth/themes/xubuntu-logo/wallpaper.png
 
 rm -r ~/turtle-linux
+exit
