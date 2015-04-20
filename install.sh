@@ -32,4 +32,11 @@ cp ~/turtle-linux/images/grub/turtle-background.png /boot/grub
 # overwrite splash screen image
 cp ~/turtle-linux/images/splash/wallpaper.png /lib/plymouth/themes/xubuntu-logo/wallpaper.png
 
+mkdir /usr/share/ubuntu-artwork/
+mkdir /usr/share/ubuntu-artwork/home/
+cp -r ~/turtle-linux/html/* /usr/share/ubuntu-artwork/home/
+
+cp ~/turtle-linux/images/logo/logo-text-white-h84.png /lib/plymouth/themes/xubuntu-logo/logo.png
+cp ~/turtle-linux/images/logo/logo-text-white-h47.png /lib/plymouth/themes/xubuntu-logo/logo_16bit.png
+
 rm -r ~/turtle-linux
